@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/*Dark Slate Grey: hsl(234, 29%, 20%)
+- Charcoal Grey: hsl(235, 18%, 26%)
+- Grey: hsl(231, 7%, 60%)
+- White: hsl(0, 0%, 100%)*/
+
+body{
+    background-color: hsl(235, 18%, 26%);
+    font-size: 16px;
+    color: hsl(234, 29%, 20%);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.caja{
+    display: flex;
+    justify-items: center;
+    background-color: hsl(0, 0%, 100%);
+    padding: 30px;
+    border-radius: 30px;
+    height: 500px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#img{
+    height: 500px;
+    
+}
+
+
+
+h1{
+    font-size: 40px;
+}
+
+#correo{
+    border-radius: 7px;
+    height: 30px;
+    width: 380px;
+    color: hsl(231, 7%, 60%);
+    font-size: 15px;
+    padding: 8px;
+}
+
+.boton{
+    border-radius: 7px;
+    border: none;
+    height: 50px;
+    width: 400px;
+    background-color: hsl(4, 100%, 67%);
+    color: hsl(0, 0%, 100%) ;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 5px 8px 18px  hsl(4, 80%, 77%);
+    
+}
